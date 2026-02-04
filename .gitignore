@@ -1,0 +1,43 @@
+# Hyperledger Fabric crypto materials and generated artifacts
+**/crypto-config/
+**/fabric-ca/
+**/msp/
+**/tlsca/
+**/ca/
+**/keystore/
+**/signcerts/
+**/tlscacerts/
+**/cacerts/
+**/IssuerPublicKey
+**/IssuerRevocationPublicKey
+**/*_sk
+**/*.pem
+**/*.key
+**/*.crt
+**/*.cert
+
+# Fabric SDK wallets / identities
+**/wallet/
+**/wallets/
+
+# Chaincode builds and Node/JS backend artifacts
+**/node_modules/
+**/npm-debug.log
+**/yarn-error.log
+**/pnpm-debug.log
+**/dist/
+**/build/
+**/coverage/
+**/.next/
+**/.turbo/
+**/.cache/
+
+# Go build outputs (chaincode/backend)
+**/bin/
+**/vendor/
+**/*.exe
+**/*.out
+**/*.test
+
+# Optional: common generated artifacts (uncomment if you want)
+# **/channel-artifacts/
